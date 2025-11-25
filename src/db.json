@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "login": "admin",
+      "password": "123456",
+      "registered_at": "2021-01-01",
+      "role_id": 0
+    },
+    {
+      "id": "1",
+      "login": "d15000",
+      "password": "123123",
+      "registed_at": "2025-02-01",
+      "role_id": 1
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "name": "Администратор"
+    },
+    {
+      "id": "1",
+      "name": "Модератор"
+    },
+    {
+      "id": "2",
+      "name": "Читатель"
+    },
+    {
+      "id": "3",
+      "name": "Гость"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "image_url": "/images/post1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2021-01-01"
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "image_url": "/images/post2.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2021-01-02"
+    },
+    {
+      "id": "3",
+      "title": "Post 3",
+      "image_url": "/images/post3.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2021-01-03"
+    },
+    {
+      "id": "4",
+      "title": "Post 4",
+      "image_url": "/images/post4.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2021-01-04"
+    },
+    {
+      "id": "5",
+      "title": "Post 5",
+      "image_url": "/images/post5.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2021-01-05"
+    },
+    {
+      "id": "d887",
+      "title": "Новый пост",
+      "image_url": "/images/post1.png",
+      "content": "Рад, что ты был на эфире. Многие говорили, что этот час помог увидеть профессию по-новому. Спасибо за твоё внимание и вовлечённость.\n\nКак и обещал, держи ссылку на запись. Ты сможешь пересмотреть ключевые моменты и собрать для себя чёткий план действий.\n\nНо просмотр не даёт движения без шага вперёд.\n\n\nИменно поэтому я открыл условия, о которых говорил только на эфире. Они доступны ограниченное время, и они созданы так, чтобы у тебя появилась реальная опора для входа в IT.\n\nХочу, чтобы ты получил не просто материал, а путь, по которому уже идут сотни моих студентов. Они вышли на доходы от 100 000 рублей, потому что сделали вовремя один важный шаг.\n\nЕсли ты видишь свой маршрут так же ясно, как мы разбирали на эфире, забери условия сейчас....",
+      "publishedAt": "2025-11-25"
+    },
+    {
+      "id": "9a9b",
+      "title": "Post 6",
+      "image_url": "/images/post6.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "author_id": "1",
+      "content": "Comment 1",
+      "publishedAt": "2021-01-01"
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "author_id": "0",
+      "content": "Отличная статья!",
+      "publishedAt": "2021-01-02"
+    },
+    {
+      "id": "7880",
+      "postId": "4",
+      "content": "test",
+      "author_id": "0",
+      "publishedAt": "2025-11-25"
+    },
+    {
+      "id": "48ae",
+      "postId": "d887",
+      "content": "test",
+      "author_id": "0",
+      "publishedAt": "2025-11-25"
+    },
+    {
+      "id": "4769",
+      "postId": "d887",
+      "content": "фыафывывфыв",
+      "author_id": "0",
+      "publishedAt": "2025-11-25"
+    },
+    {
+      "id": "380a",
+      "postId": "d887",
+      "content": "фывфывфывфыв",
+      "author_id": "0",
+      "publishedAt": "2025-11-25"
+    },
+    {
+      "id": "ff31",
+      "postId": "d887",
+      "content": "фывфывфыв",
+      "author_id": "0",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "944d",
+      "hash": "fvbj6e2ad6a",
+      "user_id": "0",
+      "login": "admin",
+      "role_id": 0
+    },
+    {
+      "id": "872d",
+      "hash": "sbkcz8job5",
+      "user_id": "0",
+      "login": "admin",
+      "role_id": 0
+    },
+    {
+      "id": "1dac",
+      "hash": "ba6k5n6vh68",
+      "user_id": "0",
+      "login": "admin",
+      "role_id": 0
+    }
+  ]
+}
